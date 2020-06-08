@@ -1,0 +1,305 @@
+.logo {
+  height: 100%;
+  float: left;
+}
+
+.header {
+  height: 100px;
+  position: relative;
+  margin-bottom: 60px;
+  margin-left: -17px;
+}
+
+.text-black {
+  font-size: 53px;
+  position: absolute;
+  letter-spacing: 3px;
+  bottom: 0;
+  left: 91px;
+  padding-bottom: 1px;
+  line-height: 20px;
+  color: #03081A !important;
+}
+
+body {
+  line-height: 1.7;
+  color: #666666;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+  font-family: 'Archivo Black', sans-serif;
+  color: #000;
+}
+
+.buttons {
+  margin-top: 60px;
+  margin-left: 2px
+}
+
+.button {
+  height: 55px;
+}
+
+.apple {
+  float: left;
+}
+
+.play {
+  margin-left: 20px;
+}
+
+.site-blocks-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.site-blocks-cover .description {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.4rem;
+  line-height: 30px;
+  color: #626262
+}
+
+.text1 {
+  margin-bottom: 35px;
+}
+
+.site-blocks-cover, .site-blocks-cover > .container, .site-blocks-cover > .container > .row {
+  min-height: 600px;
+  height: 100vh;
+}
+
+.site-blocks-cover .text-intro {
+  position: relative;
+  z-index: 2;
+}
+
+.site-blocks-cover h1 {
+  font-size: 3rem;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+.site-blocks-cover .img-face {
+  position: absolute;
+  right: -5%;
+  bottom: 0;
+  z-index: 1;
+  max-width: 950px;
+}
+
+@media (max-width: 991.98px) {
+  .site-blocks-cover .img-face {
+    right: -25%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 85%;
+    margin-left: 25px;
+    margin-right: 300px !important;
+    width: 100%;
+  }
+
+  .description {
+    font-size: 1.1rem !important;
+  }
+
+  .buttons {
+    margin-top: 25px !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .header {
+    height: 70px !important;
+    margin-top: 0 !important;
+    margin-left: -2px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .description {
+    font-size: 0.9rem !important;
+    line-height: 20px !important;
+  }
+
+  .text1 {
+    margin-bottom: 20px;
+  }
+
+  .buttons {
+    margin-top: 20px !important;
+  }
+
+  .apple {
+    height: 35px !important;
+  }
+
+  .play {
+    height: 35px !important;
+    margin-left: 20px
+  }
+}
+
+@media (max-width: 412px) {
+  .header {
+    height: 55px !important;
+    margin-top: 0 !important;
+    margin-left: -2px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .description {
+    font-size: 0.9rem !important;
+    line-height: 20px !important;
+  }
+
+  .buttons {
+    margin-top: 10px !important;
+  }
+
+  .apple {
+    height: 35px !important;
+  }
+
+  .play {
+    height: 35px !important;
+    margin-left: 20px
+  }
+}
+
+@media (max-width: 375px) {
+  .header {
+    height: 50px !important;
+    margin-top: 0 !important;
+    margin-left: -2px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .description {
+    font-size: 1.01rem !important;
+    line-height: 21px !important;
+  }
+
+  .buttons {
+    margin-top: 20px !important;
+  }
+
+  .apple {
+    height: 35px !important;
+  }
+
+  .play {
+    height: 35px !important;
+    margin-left: 20px
+  }
+}
+
+@media (max-width: 384px) {
+  .header {
+    height: 60px !important;
+    margin-top: 0 !important;
+    margin-left: -2px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .description {
+    font-size: 0.8rem !important;
+    line-height: 19px !important;
+  }
+
+  .buttons {
+    margin-top: 18px !important;
+  }
+
+  .apple {
+    height: 35px !important;
+  }
+
+  .play {
+    height: 35px !important;
+    margin-left: 20px
+  }
+
+  .text1 {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+    height: 55px !important;
+    margin-top: 0 !important;
+    margin-left: -2px !important;
+    margin-bottom: 18px !important;
+  }
+
+  .description {
+    font-size: 0.80rem !important;
+    line-height: 19px !important;
+  }
+
+  .buttons {
+    margin-top: 0 !important;
+  }
+
+  .apple {
+    height: 35px !important;
+  }
+
+  .text1 {
+    margin-bottom: 15px !important;
+  }
+
+  .play {
+    height: 35px !important;
+    margin-left: 20px
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    height: 50px !important;
+    margin-top: 0 !important;
+    margin-left: -2px !important;
+    margin-bottom: 13px !important;
+  }
+
+  .text1 {
+    margin-bottom: 15px !important;
+  }
+
+  .description {
+    font-size: 0.69rem !important;
+    line-height: 17px !important;
+  }
+
+  .buttons {
+    margin-top: 5px !important;
+  }
+
+  .apple {
+    height: 35px !important;
+  }
+
+  .play {
+    height: 35px !important;
+    margin-left: 20px
+  }
+}
+
