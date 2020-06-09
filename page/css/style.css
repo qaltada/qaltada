@@ -8,6 +8,7 @@
   position: relative;
   margin-bottom: 60px;
   margin-left: -17px;
+  margin-top: 10px;
 }
 
 .text-black {
@@ -62,6 +63,10 @@ h1, h2, h3, h4, h5,
   margin-left: 20px;
 }
 
+.github {
+  margin-left: 20px;
+}
+
 .site-blocks-cover {
   background-size: cover;
   background-repeat: no-repeat;
@@ -111,7 +116,7 @@ h1, h2, h3, h4, h5,
 @media (max-width: 600px) {
   .container {
     max-width: 85%;
-    margin-left: 25px;
+    margin-left: 30px;
     margin-right: 300px !important;
     width: 100%;
   }
@@ -123,12 +128,22 @@ h1, h2, h3, h4, h5,
   .buttons {
     margin-top: 25px !important;
   }
+
+  .github {
+    margin-top: 30px;
+    margin-left: 0 !important;
+    margin-bottom: 30px;
+  }
+
+  .header {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 414px) {
   .header {
     height: 70px !important;
-    margin-top: 0 !important;
+    margin-top: 20px !important;
     margin-left: -2px !important;
     margin-bottom: 25px !important;
   }
@@ -154,12 +169,17 @@ h1, h2, h3, h4, h5,
     height: 35px !important;
     margin-left: 20px
   }
+
+  .github {
+    height: 39px !important;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 412px) {
   .header {
     height: 55px !important;
-    margin-top: 0 !important;
+    margin-top: 15px !important;
     margin-left: -2px !important;
     margin-bottom: 18px !important;
   }
@@ -180,6 +200,13 @@ h1, h2, h3, h4, h5,
   .play {
     height: 35px !important;
     margin-left: 20px
+  }
+
+  .github {
+    margin-top: 15px;
+    margin-left: 0 !important;
+    height: 40px;
+    margin-bottom: 20px;
   }
 }
 
@@ -208,12 +235,16 @@ h1, h2, h3, h4, h5,
     height: 35px !important;
     margin-left: 20px
   }
+
+  .github {
+    height: 42px !important;
+  }
 }
 
 @media (max-width: 384px) {
   .header {
     height: 60px !important;
-    margin-top: 0 !important;
+    margin-top: 15px !important;
     margin-left: -2px !important;
     margin-bottom: 20px !important;
   }
@@ -224,7 +255,7 @@ h1, h2, h3, h4, h5,
   }
 
   .buttons {
-    margin-top: 18px !important;
+    margin-top: 10px !important;
   }
 
   .apple {
@@ -239,12 +270,18 @@ h1, h2, h3, h4, h5,
   .text1 {
     margin-bottom: 20px;
   }
+
+  .github {
+    margin-top: 20px;
+    margin-left: 0 !important;
+    height: 40px;
+  }
 }
 
 @media (max-width: 360px) {
   .header {
     height: 55px !important;
-    margin-top: 0 !important;
+    margin-top: 20px !important;
     margin-left: -2px !important;
     margin-bottom: 18px !important;
   }
@@ -262,6 +299,12 @@ h1, h2, h3, h4, h5,
     height: 35px !important;
   }
 
+  .github {
+    margin-top: 20px;
+    margin-left: 0 !important;
+    height: 40px;
+  }
+
   .text1 {
     margin-bottom: 15px !important;
   }
@@ -275,9 +318,13 @@ h1, h2, h3, h4, h5,
 @media (max-width: 320px) {
   .header {
     height: 50px !important;
-    margin-top: 0 !important;
+    margin-top: 10px !important;
     margin-left: -2px !important;
     margin-bottom: 13px !important;
+  }
+
+  .container {
+    margin-left: 17px;
   }
 
   .text1 {
@@ -290,7 +337,7 @@ h1, h2, h3, h4, h5,
   }
 
   .buttons {
-    margin-top: 5px !important;
+    margin-top: 2px !important;
   }
 
   .apple {
@@ -300,6 +347,12 @@ h1, h2, h3, h4, h5,
   .play {
     height: 35px !important;
     margin-left: 20px
+  }
+
+  .github {
+    margin-top: 15px;
+    margin-left: 0 !important;
+    height: 40px;
   }
 }
 
