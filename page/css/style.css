@@ -64,7 +64,9 @@ h1, h2, h3, h4, h5,
 }
 
 .github {
+  margin-top: 10px;
   margin-left: 20px;
+  height: 40px;
 }
 
 .site-blocks-cover {
@@ -171,8 +173,8 @@ h1, h2, h3, h4, h5,
   }
 
   .github {
-    height: 39px !important;
-    margin-top: 20px;
+    height: 30px;
+    margin-top: 25px;
   }
 }
 
@@ -190,7 +192,7 @@ h1, h2, h3, h4, h5,
   }
 
   .buttons {
-    margin-top: 10px !important;
+    margin-top: 3px !important;
   }
 
   .apple {
@@ -203,9 +205,9 @@ h1, h2, h3, h4, h5,
   }
 
   .github {
-    margin-top: 15px;
+    margin-top: 21px;
     margin-left: 0 !important;
-    height: 40px;
+    height: 30px;
     margin-bottom: 20px;
   }
 }
@@ -237,7 +239,7 @@ h1, h2, h3, h4, h5,
   }
 
   .github {
-    height: 42px !important;
+    height: 40px;
   }
 }
 
@@ -272,9 +274,9 @@ h1, h2, h3, h4, h5,
   }
 
   .github {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 0 !important;
-    height: 40px;
+    height: 30px;
   }
 }
 
@@ -300,9 +302,9 @@ h1, h2, h3, h4, h5,
   }
 
   .github {
-    margin-top: 20px;
+    margin-top: 25px;
     margin-left: 0 !important;
-    height: 40px;
+    height: 30px;
   }
 
   .text1 {
@@ -350,9 +352,9 @@ h1, h2, h3, h4, h5,
   }
 
   .github {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 0 !important;
-    height: 40px;
+    height: 30px;
   }
 }
 
