@@ -40,8 +40,7 @@ a:hover {
   cursor: pointer;
 }
 
-h1, h2, h3, h4, h5,
-.h1, .h2, .h3, .h4, .h5 {
+h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   font-family: 'Archivo Black', sans-serif;
   color: #000;
 }
@@ -64,9 +63,12 @@ h1, h2, h3, h4, h5,
 }
 
 .github {
-  margin-top: 10px;
+  margin-top: 3px;
   margin-left: 20px;
-  height: 40px;
+}
+
+.github img {
+  height: 49px;
 }
 
 .site-blocks-cover {
@@ -112,6 +114,12 @@ h1, h2, h3, h4, h5,
 @media (max-width: 991.98px) {
   .site-blocks-cover .img-face {
     right: -25%;
+  }
+}
+
+@media (max-width: 720px) {
+  .buttons {
+    margin-top: 10px;
   }
 }
 
@@ -163,18 +171,24 @@ h1, h2, h3, h4, h5,
     margin-top: 20px !important;
   }
 
-  .apple {
+  .apple img {
     height: 35px !important;
   }
 
   .play {
-    height: 35px !important;
     margin-left: 20px
   }
 
+  .play img {
+    height: 35px !important;
+  }
+
   .github {
-    height: 30px;
     margin-top: 25px;
+  }
+
+  .github img {
+    height: 30px;
   }
 }
 
@@ -195,20 +209,26 @@ h1, h2, h3, h4, h5,
     margin-top: 3px !important;
   }
 
-  .apple {
+  .apple img {
     height: 35px !important;
   }
 
   .play {
-    height: 35px !important;
     margin-left: 20px
+  }
+
+  .play img {
+    height: 35px !important;
   }
 
   .github {
     margin-top: 21px;
     margin-left: 0 !important;
-    height: 30px;
     margin-bottom: 20px;
+  }
+
+  .github img {
+    height: 30px;
   }
 }
 
@@ -229,16 +249,19 @@ h1, h2, h3, h4, h5,
     margin-top: 20px !important;
   }
 
-  .apple {
+  .apple img {
     height: 35px !important;
   }
 
   .play {
     height: 35px !important;
-    margin-left: 20px
   }
 
-  .github {
+  .play img {
+    height: 35px !important;
+  }
+
+  .github img {
     height: 40px;
   }
 }
@@ -260,13 +283,16 @@ h1, h2, h3, h4, h5,
     margin-top: 10px !important;
   }
 
-  .apple {
+  .apple img {
     height: 35px !important;
   }
 
   .play {
-    height: 35px !important;
     margin-left: 20px
+  }
+
+  .play img {
+    height: 35px !important;
   }
 
   .text1 {
@@ -276,6 +302,9 @@ h1, h2, h3, h4, h5,
   .github {
     margin-top: 25px;
     margin-left: 0 !important;
+  }
+
+  .github img {
     height: 30px;
   }
 }
@@ -297,13 +326,16 @@ h1, h2, h3, h4, h5,
     margin-top: 0 !important;
   }
 
-  .apple {
+  .apple img {
     height: 35px !important;
   }
 
   .github {
     margin-top: 25px;
     margin-left: 0 !important;
+  }
+
+  .github img {
     height: 30px;
   }
 
@@ -312,8 +344,11 @@ h1, h2, h3, h4, h5,
   }
 
   .play {
-    height: 35px !important;
     margin-left: 20px
+  }
+
+  .play img {
+    height: 35px !important;
   }
 }
 
@@ -342,18 +377,24 @@ h1, h2, h3, h4, h5,
     margin-top: 2px !important;
   }
 
-  .apple {
+  .apple img {
+    height: 35px !important;
+  }
+
+  .play img {
     height: 35px !important;
   }
 
   .play {
-    height: 35px !important;
     margin-left: 20px
   }
 
   .github {
     margin-top: 20px;
     margin-left: 0 !important;
+  }
+
+  .github img {
     height: 30px;
   }
 }
