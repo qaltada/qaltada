@@ -6,9 +6,9 @@
 .header {
   height: 100px;
   position: relative;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   margin-left: -17px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .text-black {
@@ -71,6 +71,13 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   height: 49px;
 }
 
+.github-text {
+  margin-left: 0px;
+  margin-top: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 35px;
+}
+
 .site-blocks-cover {
   background-size: cover;
   background-repeat: no-repeat;
@@ -111,15 +118,34 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   max-width: 950px;
 }
 
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 @media (max-width: 991.98px) {
   .site-blocks-cover .img-face {
     right: -25%;
+  }
+
+  hr {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
   }
 }
 
 @media (max-width: 720px) {
   .buttons {
     margin-top: 10px;
+  }
+
+  .github-logo-div {
+    margin-left: 2px;
+    margin-top: 0;
+  }
+
+  .github {
+    margin-top: 0;
   }
 }
 
@@ -140,13 +166,18 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   }
 
   .github {
-    margin-top: 30px;
     margin-left: 0 !important;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   .header {
     margin-top: 30px;
+  }
+
+  .github-text {
+    margin-top: 0;
+    font-size: 15px;
+    margin-left: 0;
   }
 }
 
@@ -183,12 +214,18 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
     height: 35px !important;
   }
 
-  .github {
-    margin-top: 25px;
-  }
-
   .github img {
     height: 30px;
+  }
+
+  .github {
+    margin-bottom: 10px;
+  }
+
+  .github-text {
+    margin-top: 0;
+    font-size: 10px;
+    margin-left: 0;
   }
 }
 
@@ -222,13 +259,18 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   }
 
   .github {
-    margin-top: 21px;
     margin-left: 0 !important;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .github img {
     height: 30px;
+  }
+
+  .github-text {
+    margin-top: 0;
+    font-size: 10px;
+    margin-left: 0;
   }
 }
 
@@ -300,7 +342,6 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   }
 
   .github {
-    margin-top: 25px;
     margin-left: 0 !important;
   }
 
@@ -331,7 +372,6 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   }
 
   .github {
-    margin-top: 25px;
     margin-left: 0 !important;
   }
 
@@ -390,7 +430,6 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   }
 
   .github {
-    margin-top: 20px;
     margin-left: 0 !important;
   }
 
